@@ -17,4 +17,5 @@ console.log(typeof ages);
 
 let confirmation = confirm("Підтвердіть вашу дію");
 console.log(confirmation);
-alert(confirmation);
+if (confirmation) alert("Дію підтверджено");
+else alert("Дію відміненно");
